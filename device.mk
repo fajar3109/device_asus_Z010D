@@ -37,3 +37,5 @@ $(call inherit-product, device/asus/msm8916-common/msm8916.mk)
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.fusion.magfield.max=250
+
+BUILD_FINGERPRINT := asus/WW_Phone/ASUS_Z010_2:6.0.1/MMB29P/13.8.26.80-20161230:user/release-keys
