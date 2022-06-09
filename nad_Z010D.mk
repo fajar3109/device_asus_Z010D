@@ -7,10 +7,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l.mk)
 # Inherit from Z010D device
 $(call inherit-product, device/asus/Z010D/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Nusantara stuff.
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_Z010D
+PRODUCT_NAME := nad_Z010D
 PRODUCT_DEVICE := Z010D
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Zenfone Max
